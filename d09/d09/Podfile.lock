@@ -1,0 +1,16 @@
+PODS:
+  - atoulous2018 (0.1.0)
+
+DEPENDENCIES:
+  - atoulous2018 (from `./atoulous2018/`)
+
+EXTERNAL SOURCES:
+  atoulous2018:
+    :path: ./atoulous2018/
+
+SPEC CHECKSUMS:
+  atoulous2018: 1d5cc51844e50d9bbac96dcb9bd70a3738e49979
+
+PODFILE CHECKSUM: c7920da8c0a45f00104bae8a3184667eb5f5f897
+
+COCOAPODS: 1.3.1

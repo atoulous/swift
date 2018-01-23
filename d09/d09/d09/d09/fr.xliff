@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 http://docs.oasis-open.org/xliff/v1.2/os/xliff-core-1.2-strict.xsd">
+  <file original="d09/Base.lproj/LaunchScreen.storyboard" source-language="en" datatype="plaintext" target-language="fr">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="9.1" build-num="9B55"/>
+    </header>
+    <body/>
+  </file>
+  <file original="d09/Base.lproj/Main.storyboard" source-language="en" datatype="plaintext" target-language="fr">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="9.1" build-num="9B55"/>
+    </header>
+    <body>
+      <trans-unit id="4WS-MI-cPe.title">
+        <source>Add</source>
+        <target>Add</target>
+        <note>Class = "UINavigationItem"; title = "Add"; ObjectID = "4WS-MI-cPe";</note>
+      </trans-unit>
+      <trans-unit id="5Zg-Wp-wlU.text">
+        <source>Content</source>
+        <target>Content</target>
+        <note>Class = "UILabel"; text = "Content"; ObjectID = "5Zg-Wp-wlU";</note>
+      </trans-unit>
+      <trans-unit id="O37-a2-JVR.placeholder">
+        <source>Title</source>
+        <target>Title</target>
+        <note>Class = "UITextField"; placeholder = "Title"; ObjectID = "O37-a2-JVR";</note>
+      </trans-unit>
+      <trans-unit id="V4a-za-fxh.title">
+        <source>Add</source>
+        <target>Add</target>
+        <note>Class = "UIViewController"; title = "Add"; ObjectID = "V4a-za-fxh";</note>
+      </trans-unit>
+      <trans-unit id="Xkc-1M-Bte.text">
+        <source>Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</source>
+        <target>Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</target>
+        <note>Class = "UITextView"; text = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda."; ObjectID = "Xkc-1M-Bte";</note>
+      </trans-unit>
+      <trans-unit id="cBz-wb-Pmr.title">
+        <source>Diary</source>
+        <target>Diary</target>
+        <note>Class = "UINavigationItem"; title = "Diary"; ObjectID = "cBz-wb-Pmr";</note>
+      </trans-unit>
+      <trans-unit id="fWC-IW-3fH.text">
+        <source>Title</source>
+        <target>Title</target>
+        <note>Class = "UILabel"; text = "Title"; ObjectID = "fWC-IW-3fH";</note>
+      </trans-unit>
+      <trans-unit id="qhk-jv-bca.text">
+        <source>modificationDate</source>
+        <target>modificationDate</target>
+        <note>Class = "UILabel"; text = "modificationDate"; ObjectID = "qhk-jv-bca";</note>
+      </trans-unit>
+      <trans-unit id="xoQ-pN-hgW.text">
+        <source>creationDate</source>
+        <target>creationDate</target>
+        <note>Class = "UILabel"; text = "creationDate"; ObjectID = "xoQ-pN-hgW";</note>
+      </trans-unit>
+      <trans-unit id="z4J-2H-0ok.text">
+        <source>Photo</source>
+        <target>Photo</target>
+        <note>Class = "UILabel"; text = "Photo"; ObjectID = "z4J-2H-0ok";</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="d09/Info.plist" source-language="en" datatype="plaintext" target-language="fr">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="9.1" build-num="9B55"/>
+    </header>
+    <body>
+      <trans-unit id="CFBundleName">
+        <source>$(PRODUCT_NAME)</source>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

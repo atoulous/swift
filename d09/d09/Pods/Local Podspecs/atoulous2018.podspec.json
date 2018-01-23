@@ -1,0 +1,28 @@
+{
+  "name": "atoulous2018",
+  "version": "0.1.0",
+  "summary": "d08 pod atoulous2018.",
+  "description": "its a long description of the pod d08 made by atoulous.",
+  "homepage": "https://github.com/atoulous/atoulous2018",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "atoulous": "atoulous@student.42.fr"
+  },
+  "source": {
+    "git": "https://github.com/atoulous/atoulous2018.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "source_files": "atoulous2018/Classes/*.swift",
+  "resource_bundles": {
+    "atoulous2018": [
+      "atoulous2018/Classes/**/*.xcdatamodeld"
+    ]
+  },
+  "frameworks": "CoreData"
+}

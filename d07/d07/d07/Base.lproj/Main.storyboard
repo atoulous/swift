@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="usk-nq-gn3">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--firstView-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController title="firstView" id="BYZ-38-t0r" customClass="ViewController" customModule="d07" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <activityIndicatorView opaque="NO" alpha="0.0" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="fEz-Hl-zRo">
+                                <rect key="frame" x="187.5" y="309" width="20" height="20"/>
+                            </activityIndicatorView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" translatesAutoresizingMaskIntoConstraints="NO" id="QgG-UC-wx3">
+                                <rect key="frame" x="0.0" y="20" width="375" height="598"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="wjE-eO-hnn">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="478.5"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Your response soon" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yme-UK-XJ9">
+                                                <rect key="frame" x="0.0" y="0.0" width="375" height="478.5"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="400" id="c64-zc-igU"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstItem="yme-UK-XJ9" firstAttribute="height" secondItem="wjE-eO-hnn" secondAttribute="height" id="5eJ-G4-W8h"/>
+                                            <constraint firstItem="yme-UK-XJ9" firstAttribute="width" secondItem="wjE-eO-hnn" secondAttribute="width" id="Pjw-8l-ens"/>
+                                            <constraint firstItem="yme-UK-XJ9" firstAttribute="centerY" secondItem="wjE-eO-hnn" secondAttribute="centerY" id="feo-SK-ZkH"/>
+                                            <constraint firstItem="yme-UK-XJ9" firstAttribute="centerX" secondItem="wjE-eO-hnn" secondAttribute="centerX" id="s0v-Lb-Qnn"/>
+                                        </constraints>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="im7-Nw-ffk">
+                                        <rect key="frame" x="0.0" y="478.5" width="375" height="119.5"/>
+                                        <subviews>
+                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="What is the weather in Paris ?" textAlignment="center" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="Y71-Br-cCo">
+                                                <rect key="frame" x="0.0" y="0.0" width="375" height="38.5"/>
+                                                <nil key="textColor"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                                <connections>
+                                                    <action selector="handleEnter:" destination="BYZ-38-t0r" eventType="editingDidEndOnExit" id="UU2-lf-fmt"/>
+                                                </connections>
+                                            </textField>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2rA-oQ-PDL">
+                                                <rect key="frame" x="0.0" y="48.5" width="375" height="71"/>
+                                                <state key="normal" title="Send"/>
+                                                <connections>
+                                                    <action selector="handleButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="zGi-7s-UTl"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="100" id="CRV-tK-btX"/>
+                                        </constraints>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="fEz-Hl-zRo" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="14I-1Z-J57"/>
+                            <constraint firstItem="QgG-UC-wx3" firstAttribute="width" secondItem="6Tk-OE-BBY" secondAttribute="width" id="EQt-fW-okJ"/>
+                            <constraint firstItem="QgG-UC-wx3" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="f6v-n8-p9j"/>
+                            <constraint firstItem="QgG-UC-wx3" firstAttribute="height" secondItem="6Tk-OE-BBY" secondAttribute="height" id="fZr-9a-Pit"/>
+                            <constraint firstItem="QgG-UC-wx3" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="muM-WT-F9B"/>
+                            <constraint firstItem="fEz-Hl-zRo" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="vBW-mF-Qcl"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" badgeValue="weather" systemItem="search" id="foi-Kd-Wyx"/>
+                    <connections>
+                        <outlet property="activityIndicator" destination="fEz-Hl-zRo" id="n7S-88-GU1"/>
+                        <outlet property="labelTextRecast" destination="yme-UK-XJ9" id="Jm0-x5-HLr"/>
+                        <outlet property="textRequestRecast" destination="Y71-Br-cCo" id="qSN-M0-Ots"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="116" y="118"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="Z5S-is-TqL">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="usk-nq-gn3" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="bu1-FE-45v">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="aMU-pQ-UGr"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0gk-gw-Dz0" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-665" y="119"/>
+        </scene>
+    </scenes>
+</document>

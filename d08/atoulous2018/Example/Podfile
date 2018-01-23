@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'atoulous2018_Example' do
+  pod 'atoulous2018', :path => '../'
+
+  target 'atoulous2018_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

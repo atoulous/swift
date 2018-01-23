@@ -1,0 +1,6 @@
+framework module atoulous2018 {
+  umbrella header "atoulous2018-umbrella.h"
+
+  export *
+  module * { export * }
+}

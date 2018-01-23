@@ -1,0 +1,22 @@
+{
+  "name": "atoulous2018",
+  "version": "0.1.0",
+  "summary": "A short description of atoulous2018.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/atoulous/atoulous2018",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "atoulous": "atoulous@student.42.fr"
+  },
+  "source": {
+    "git": "https://github.com/atoulous/atoulous2018.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "atoulous2018/Classes/**/*"
+}

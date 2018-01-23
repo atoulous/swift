@@ -1,0 +1,30 @@
+
+/* Class = "UINavigationItem"; title = "Add"; ObjectID = "4WS-MI-cPe"; */
+"4WS-MI-cPe.title" = "Add";
+
+/* Class = "UILabel"; text = "Content"; ObjectID = "5Zg-Wp-wlU"; */
+"5Zg-Wp-wlU.text" = "Content";
+
+/* Class = "UITextField"; placeholder = "Title"; ObjectID = "O37-a2-JVR"; */
+"O37-a2-JVR.placeholder" = "Title";
+
+/* Class = "UIViewController"; title = "Add"; ObjectID = "V4a-za-fxh"; */
+"V4a-za-fxh.title" = "Add";
+
+/* Class = "UITextView"; text = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda."; ObjectID = "Xkc-1M-Bte"; */
+"Xkc-1M-Bte.text" = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.";
+
+/* Class = "UINavigationItem"; title = "Diary"; ObjectID = "cBz-wb-Pmr"; */
+"cBz-wb-Pmr.title" = "Diary";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "fWC-IW-3fH"; */
+"fWC-IW-3fH.text" = "Title";
+
+/* Class = "UILabel"; text = "modificationDate"; ObjectID = "qhk-jv-bca"; */
+"qhk-jv-bca.text" = "modificationDate";
+
+/* Class = "UILabel"; text = "creationDate"; ObjectID = "xoQ-pN-hgW"; */
+"xoQ-pN-hgW.text" = "creationDate";
+
+/* Class = "UILabel"; text = "Photo"; ObjectID = "z4J-2H-0ok"; */
+"z4J-2H-0ok.text" = "Photo";
